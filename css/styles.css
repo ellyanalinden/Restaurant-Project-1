@@ -8,7 +8,7 @@
 	list-style-type: none;
 }
 
-.skip-links a{
+.skip-links a {
 	position:absolute;
 	top: -3em;
 }
@@ -26,9 +26,7 @@
 	border-radius: 5px;
 }
 
-/* https://webaim.org/resources/contrastchecker */
 /* Font and background color passed color contrast checker */
-
 body,
 td,
 th,
@@ -66,7 +64,7 @@ a:focus {
 	text-decoration: underline;
 }
 
-a img{
+a img {
 	border: none 0px #ffffff;
 }
 
@@ -304,9 +302,6 @@ nav h1 a {
 	#restaurants-list li{
 		width: 100%;
 	}
-	/*.filter-options-flexbox{
-		flex-direction: row;
-	}*/
 }
 
 @media screen  and (min-width: 401px) and (max-width: 800px) {
@@ -330,12 +325,6 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Details ====================== */
-/*.inside header {
-  position: relative;
-  top: 0;
-	z-index: 1000;
-}*/
-
 .inside #map-container {
 	background: none repeat scroll 0 0;
 	height: 300px;
@@ -350,12 +339,6 @@ nav h1 a {
   height: 100%;
   width: 100%;
 }
-
-/*.inside #footer {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-}*/
 
 #restaurant-container {
 	width: 100%;
@@ -432,10 +415,6 @@ nav h1 a {
   font-weight: 300;
   letter-spacing: 5px;
 }
-
-/*#reviews-list {
-  margin: auto;
-}*/
 
 #reviews-list li {
   background-color: #ffffff;

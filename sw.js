@@ -1,6 +1,3 @@
-
-// https://www.youtube.com/watch?v=BfL3pprhnms
-
 let cacheName = 'restaurant_v1';
 let urlsToCache = [
   './',
@@ -10,8 +7,8 @@ let urlsToCache = [
   'js/dbhelper.js',
   'js/main.js',
   'js/restaurant_info.js',
-  'data/restaurant.json',
-  'css/style.css',
+  'data/restaurants.json',
+  'css/styles.css',
   'img/1.jpg',
   'img/2.jpg',
   'img/3.jpg',

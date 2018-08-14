@@ -1,5 +1,4 @@
 // Service worker registration
-//https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register
 
 if('serviceWorker' in navigator) {
       // Register a service worker hosted at the root of the
