@@ -11,7 +11,7 @@
 * Add a ServiceWorker script to cache requests to all of the site’s assets so that any page that has been visited by a user will be accessible when the user is offline.
 
 ## How to run the application
-* Fork and clone the git repository https://github.com/ellyanalinden/Restaurant-Project
+* Fork and clone the git repository https://github.com/ellyanalinden/Restaurant-Project-1
 * Launch a local client server using Python from your terminal:
   Python 2: python -m SimpleHTTPServer 8000
   Python 3: python3 -m http.server 8000
