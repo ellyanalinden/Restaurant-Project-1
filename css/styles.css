@@ -41,9 +41,9 @@ body {
 	background-color: #F7F9FD;
 	margin: 0;
 	position:relative;
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+	/*margin-left: auto;
+	margin-right: auto;*/
 }
 
 ul,
@@ -182,7 +182,6 @@ nav h1 a {
 	border-radius: 5px;
 	margin: 5px 0;
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	position: relative;
 }
@@ -192,14 +191,18 @@ nav h1 a {
   font-size: 16px;
   font-weight: normal;
   line-height: 1em;
-  margin: 0 10px 5px;
+  margin: 20px 5px 5px;
 	letter-spacing: 2px;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+
 }
 
 .filter-options-flexbox{
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: row;
 }
 
 .filter-options select {
@@ -330,10 +333,11 @@ nav h1 a {
 	height: 300px;
 	margin: 0px;
 	padding: 20px;
-  /*width: 50%;
-	position: relative;*/
 }
 
+#map {
+	border-radius: 10px;
+}
 .inside #map {
   background-color: #cccccc;
   height: 100%;
@@ -361,6 +365,7 @@ nav h1 a {
 	width: 100%;
 	height: auto;
 	position: relative;
+	border-radius: 20px;
 }
 
 #restaurant-cuisine {

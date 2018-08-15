@@ -44,15 +44,10 @@ self.addEventListener('activate', event => {
 })
 
 self.addEventListener('fetch', event => {
-  if(event.request.url.startsWith(self.location.origin)){
-    event.respondWith(
-      caches.match(event.request).then(response => {
-        if(response){
-          //console.log("[ServiceWorker] found in cache", event.request.url);
-          return response;
-          return fetch(event.request);
-        }
-      })
-    );
-  }
+	event.respondWith(
+		caches.match(event.request).then(response => {
+			if (response) {return response;}
+			{return fetch(event.request);}
+		})
+	);
 });
